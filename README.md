@@ -1,6 +1,6 @@
 # AleksandrV-git.github.io.RegExp
 ProjectWork_10
 
-рабочая версия 0.0.1
+рабочая версия 0.0.2
 
-ссылка <https://github.com/AleksandrV-git/AleksandrV-git.github.io.RegExp.git>
+ссылка <https://aleksandrv-git.github.io/AleksandrV-git.github.io.RegExp/>
