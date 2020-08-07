@@ -20,18 +20,18 @@
                 <h3>Форма регистрации</h3>
                 <fieldset class="form__fieldset">
                     <div class="form__field">
-                        <input class="form__input" type="text" name="name" pattern="^[А-Я][-а-яА-Я]+$" placeholder="Имя" minlength="2" maxlength="20" required />
+                        <input class="form__input" type="text" name="name" pattern="^[А-ЯЁ][а-яё]+(-[А-ЯЁ][а-яё]+)?$" placeholder="Имя" minlength="2" maxlength="20" required />
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="text" name="email" pattern="^[-A-Za-z0-9]+@[-A-Za-z0-9]+\.[A-Za-z0-9]+" placeholder="E-Mail" required />
+                        <input class="form__input" type="text" name="email" pattern="^([-A-Za-z0-9]+\.?([A-Za-z0-9]+)?)@([-A-Za-z0-9]+)\.([A-Za-z0-9]+\.?[A-Za-z0-9]+)$" placeholder="E-Mail" required />
                         <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="text" name="tel" placeholder="Телефон" pattern="^([+]?[0-9\s\-\(\)]+)*$" minlength="" maxlength="18"  required/>
+                        <input class="form__input" type="text" name="tel" placeholder="Телефон" pattern="^((\+7|8)(\s)?(\([0-9]{3}\)|[0-9]{3})(-|\s)?([0-9]{3}[-]?[0-9]{2}[-]?[0-9]{2}))$" minlength="" maxlength="18"  required/>
                         <span class="form__error">Недопустимый формат номера</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="text" name="url" pattern="^(https?:\/\/)([\w\.]+)([\w\-:\/\.]+)#?"  placeholder="Ваш сайт" required/>
+                        <input class="form__input" type="text" name="url" pattern="^(https?:\/\/)(www)?([0-9]{0,2}\.[0-9]{0,2}\.[0-9]{0,2}\.[0-9]{0,2}|[-\w\.]+[a-z]{2,6}\.?)(:[1-9][0-9]{1,4})?(\/[\w\.]+)*\/?#?$"  placeholder="Ваш сайт" required/>
                         <span class="form__error">URL в формате: http://mysite.ru</span>
                     </div>
                     <button class="form__button" type="text">Отправить</button>
