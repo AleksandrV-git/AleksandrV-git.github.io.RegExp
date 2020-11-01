@@ -52,4 +52,4 @@ ProjectWork_10
 > - http://8.8.8.8:8080/page/to/deep# 
 
 ## Ссылка на github pages:
-<https://aleksandrv-git.github.io/AleksandrV-git.github.io.RegExp/>
+<https://aleksandrv-git.github.io/RegExp/>
